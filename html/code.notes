@@ -1,0 +1,16 @@
+# code.html
+
+- hello world into html file with no header tags; right click file and open live server, will display hello world
+
+- change hello world to have h1 headers, will increase text size and bold because h1 by default is obv. a header
+
+-  <head>
+
+    <title>Blaise Resume Page</title>
+
+  </head>
+  : shows title on tab, not on page 
+
+- semantic tags
+    -header
+    -
