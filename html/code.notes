@@ -14,7 +14,15 @@
 - semantic tags
     -header
 
-- escaped/ special characters
-    -&copy; - copyright symbol
-    -&gt; - greater than    2 &gt; 5
-    -&lt; - less than
+- escaped / special characters
+    -&copy; : copyright symbol
+    -&gt; : greater than   2 &gt; 5
+    -&lt; : less than
+
+- alt="" : attribute for im src; alt name to know what it is. doesnt show output
+
+- <h2>  : isnt as big or as bold as h1
+- <div> : is division of the page, some section that you want to put together
+- <ol>  : ordered list, with individual li elements
+- <ul>  : unordered list, bullet points
+- <a>   : a or anchor tag; has a href, which is "where does this point to" (routed to) (<a href> : highlights to link)
