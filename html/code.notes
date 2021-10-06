@@ -13,5 +13,8 @@
 
 - semantic tags
     -header
-    -&gt; greater than
-    -&lt; less than 
+
+- escaped/ special characters
+    -&copy; - copyright symbol
+    -&gt; - greater than    2 &gt; 5
+    -&lt; - less than
