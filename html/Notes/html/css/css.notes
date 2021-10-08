@@ -1,0 +1,24 @@
+# CSS
+
+- Styling: setting properties to change the look
+                    - properties are name or value pairs 
+                        - can be used in variety of ways 
+                                [ "background-color: blue;" ] * simple property 
+                                
+                                [ "font-family: 'Open Sans', sans-serif;" ] * multi-valued property; list of what fonts can be supported
+  "" is only for syntax color                        
+                                [ "border: 1px solid #808080;" ] * multi-part property; how wide is border, solid or dashed, and color 
+                                
+                                [ "padding: 4px;" ] * directional property; padding set to 4 pixels, which is top-bottom-left-right
+                                [ "padding: 4px 8px;" ] * vertical and horizontal; top and bottom=4, left and right=8
+                                [ "padding: 4px 8px 6px 9px;" ] * all four directions; top-bottom-left-right 
+                                [ "padding-left: 8px;" ] * individual direction; defines one of the four directions 
+
+        - Format: 
+
+            body {                * Rule, container for properties
+                font-size: 11px;  * property
+                color: white;     * property; short or long list with curly brace before and after 
+            }                         * do not have to be on their own line and white spaces ignored; can put them all on one line or separatly
+
+           [ <main style="background-color: rgb(198, 206, 214); padding: 4px; color: #202020;"> ]

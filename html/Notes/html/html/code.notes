@@ -4,6 +4,7 @@
 
 - change hello world to have h1 headers, will increase text size and bold because h1 by default is obv. a header
 
+
 -  <head> : 
     <title>Blaise Resume Page</title>
 -  </head> : 
@@ -15,7 +16,7 @@
                      
                     ------------------
                      <form>
-(label element)       <label for="fullName>Full Name</label>    [ label and not paragraph because label has a relationship to the output ]
+ (label element)       <label for="fullName>Full Name</label>    [ label and not paragraph because label has a relationship to the output ]
                       <input id="fullName"/>  [ give input an id, cant use spaces in an id; dashes, underscores, no spaces]
                     -------------------
 
@@ -23,8 +24,8 @@
                     <select id="subject">    - select uses option objects; alternative to just giving a text field 
                         <option></option>     - drop down menu of selected options 
                     </select>
-                    --------------------
-
+           
+           
     - form : tag for for info input 
     - label for : when full name is tapped on, its going to take user to actual input 
     - <input id="fullName" type="text" /> : tell browser what 'type' it is to know what to kind of info to expect in each field  
@@ -33,17 +34,19 @@
     - submit : 
          <input type="submit" value="Send M<il" />: tell form itself that it wants to submit it to somewhere, which will actually do the email sending 
 
-- escaped / special characters:
-    -&copy; : copyright symbol
-    -&gt; : greater than   2 &gt; 5
-    -&lt; : less than
 
-- alt="" : attribute for im src; alt name to know what it is. doesnt show output
 
-- <h2>  : isnt as big or as bold as h1
-- <div> : is division of the page, some section that you want to put together
-- <ol>  : ordered list, with individual li elements
-- <ul>  : unordered list, bullet points
-- <a>   : a or anchor tag; has a href, which is "where does this point to" (routed to) (<a href> : highlights to link)
+    - escaped / special characters:
+        -&copy; : copyright symbol
+        -&gt; : greater than   2 &gt; 5
+        -&lt; : less than
 
-- <input /> : self-close tag 
+            - alt="" : attribute for im src; alt name to know what it is. doesnt show output
+                
+            - <h2>  : isnt as big or as bold as h1
+            - <div> : is division of the page, some section that you want to put together
+            - <ol>  : ordered list, with individual li elements
+            - <ul>  : unordered list, bullet points
+            - <a>   : a or anchor tag; has a href, which is "where does this point to" (routed to) (<a href> : highlights to link)
+
+            - <input /> : self-close tag 
