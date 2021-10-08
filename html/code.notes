@@ -4,17 +4,36 @@
 
 - change hello world to have h1 headers, will increase text size and bold because h1 by default is obv. a header
 
--  <head>
-
+-  <head> : 
     <title>Blaise Resume Page</title>
-
-  </head>
+-  </head> : 
   : shows title on tab, not on page 
 
-- semantic tags
-    -header
+- semantic tags: 
+    -header: 
+    -aside: layer format to be in the right hand side of the page, to output info about page but not main content
+                     
+                    ------------------
+                     <form>
+(label element)       <label for="fullName>Full Name</label>    [ label and not paragraph because label has a relationship to the output ]
+                      <input id="fullName"/>  [ give input an id, cant use spaces in an id; dashes, underscores, no spaces]
+                    -------------------
 
-- escaped / special characters
+                    --------------------
+                    <select id="subject">    - select uses option objects; alternative to just giving a text field 
+                        <option></option>     - drop down menu of selected options 
+                    </select>
+                    --------------------
+
+    - form : tag for for info input 
+    - label for : when full name is tapped on, its going to take user to actual input 
+    - <input id="fullName" type="text" /> : tell browser what 'type' it is to know what to kind of info to expect in each field  
+    - textarea: to increase text area of input
+        <textarea id="msg" rows="4"></textarea> : 
+    - submit : 
+         <input type="submit" value="Send M<il" />: tell form itself that it wants to submit it to somewhere, which will actually do the email sending 
+
+- escaped / special characters:
     -&copy; : copyright symbol
     -&gt; : greater than   2 &gt; 5
     -&lt; : less than
@@ -26,3 +45,5 @@
 - <ol>  : ordered list, with individual li elements
 - <ul>  : unordered list, bullet points
 - <a>   : a or anchor tag; has a href, which is "where does this point to" (routed to) (<a href> : highlights to link)
+
+- <input /> : self-close tag 
