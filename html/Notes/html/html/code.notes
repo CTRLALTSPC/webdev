@@ -50,3 +50,26 @@
             - <a>   : a or anchor tag; has a href, which is "where does this point to" (routed to) (<a href> : highlights to link)
 
             - <input /> : self-close tag 
+
+    - <link rel> : to point at a file, when its in the same directory; telling the page that the link to the css file is a stylesheet
+                    * always at the top of the document, and usually in header so it loads them as early as possible
+            <link rel="stylesheet" href="/html/sites.css" />
+
+
+        # The Box Model # 
+
+--------------------------------------------------------------------------
+               Margin; the space between this content and the next one
+       _______________________________________________________________
+                          Border; goes all round 
+          ---------------------------------------------------------
+                    Padding in this space; goes all around 
+           ----------------------------------------------------- 
+                  ^
+                  ^              CONTENT                            * the actual height will include bottom of bottom to top of border; everything except the margin
+           Height ^                                                 * the actual width is to the border which includes content and padding
+                  ^                 Width______>
+           -----------------------------------------------------
+
+           - the padding has content which pushes the content in, and may have a border around that
+           - the line between the edge of the element in the content is made up of both size of border and padding   

@@ -1,5 +1,7 @@
 # CSS
 
+All of this can be done inside html file, but style sheets are the alterantive to have 'privacy', aka private elements so to say
+
 - Styling: setting properties to change the look
                     - properties are name or value pairs 
                         - can be used in variety of ways 
@@ -22,3 +24,46 @@
             }                         * do not have to be on their own line and white spaces ignored; can put them all on one line or separatly
 
            [ <main style="background-color: rgb(198, 206, 214); padding: 4px; color: #202020;"> ]
+
+
+        
+        - <style></style> :  * set of text that assigns value/object with designated attributes/values in the 'format' above
+                             * applies to all values with that name element 
+                             * can add multiable by separating with comma:
+                                h1, h2 {}
+                <style>
+                    main {
+                    background-color: rgb(198, 206, 214);
+                    padding: 4px;
+                    color: #202020;
+                    }
+                </style>
+
+
+# Cascading Rule  - whats ahead of the other is overruled/changed 
+
+    body {                  - Rule (container for properties)
+        font-size: 11px;
+    }
+
+    body {                  - Later property wins [ overrides default behavior in some other file ]
+        font-size: 12px;
+    }
+
+
+    body {                 - Less specific or higher in hierarchy
+        font-size: 11px;
+    }
+
+    h1 {                   - More specific of lower in hierarchy win
+        font-size: 18px;    * child of the body, overrides the behavior in this scenario of being after the body 
+    }
+    
+
+     - <link> : to point at a file, when its in the same directory; telling the page that the link to the css file is a stylesheet
+                     * always at the top of the document, and usually in header so it loads them as early as possible
+            <link rel="stylesheet" href="/html/sites.css" />
+
+    - font-family : font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    * list in the order that vs is going to try and find the fonts
+                     [ was in h1, h2; moved to body due to cascading rule] 
