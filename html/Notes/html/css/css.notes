@@ -67,3 +67,5 @@ All of this can be done inside html file, but style sheets are the alterantive t
     - font-family : font-family: Verdana, Geneva, Tahoma, sans-serif;
                     * list in the order that vs is going to try and find the fonts
                      [ was in h1, h2; moved to body due to cascading rule] 
+    
+    - border-radius: 4px; * the larger the more rounded; like a crop option

@@ -21,4 +21,7 @@ h1, h2 {
 header img {
   border: 1px solid lightslategray; 
   padding: 2px;
+  margin: 8px;
+  border-radius: 8px;
+  max-width: 150px;
 }
