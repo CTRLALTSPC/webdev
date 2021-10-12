@@ -4,6 +4,8 @@
 
 - change hello world to have h1 headers, will increase text size and bold because h1 by default is obv. a header
 
+- Bigger def of div: What is a div in HTML?
+<div>: The Content Division element. The <div> HTML element is the generic container for flow content and separates content
 
 -  <head> : 
     <title>Blaise Resume Page</title>
