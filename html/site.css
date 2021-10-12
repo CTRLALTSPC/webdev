@@ -18,10 +18,12 @@ h1, h2 {
 /* dont want the default border 1px for every picture,
   so, any image inside the header "header img"
   or, "header > img" for any image inside the header */ 
-header img {
+/* changed to #headshot*/
+#headshot {
   border: 1px solid lightslategray; 
   padding: 2px;
   margin: 8px;
   border-radius: 8px;
   max-width: 150px;
 }
+

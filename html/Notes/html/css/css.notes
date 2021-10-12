@@ -17,7 +17,7 @@ All of this can be done inside html file, but style sheets are the alterantive t
                                 [ "padding-left: 8px;" ] * individual direction; defines one of the four directions 
 
         - Format: 
-
+                                    (body or whatever before braces is called selector)
             body {                * Rule, container for properties
                 font-size: 11px;  * property
                 color: white;     * property; short or long list with curly brace before and after 
@@ -69,3 +69,60 @@ All of this can be done inside html file, but style sheets are the alterantive t
                      [ was in h1, h2; moved to body due to cascading rule] 
     
     - border-radius: 4px; * the larger the more rounded; like a crop option
+
+
+   #CSS Selectors - so far used element names, which are the simplest of the selectors
+
+    body {                  - selector is the indicator before the braces
+                            - element names are just named  
+    }
+
+    body, h1 {               - separate items by comma    
+    }
+
+    body h1 {                 - designates hierarchy
+    }
+
+   body < h1 {                - designates direct children
+   }
+
+
+   # Find an item with a name, well id 
+
+   #someItem {       - indicates a single item by 'id'
+   }                        * the #(poumd) is looking for an element that has the id of someItem 
+
+   .someItem {        - indicates all items that have names class 
+   }                        * an item that has a named class associated with it
+
+              * the selector for id is always going to resolve to a single element
+              * named classes always resolve to a collection of everything that has that same class name
+      
+
+      <img id="headshot" src="https://www.giantbomb.com/a/uploads/scale_small/0/1212/224950-250px_sonicchannel_blaze.png"
+   - giving id to single item :   
+                    (html)  The id attribute is a unique identifier of the HTML element. Each id attribute must be unique. 
+                            Also, this attribute must begin with a letter and is case sensitive. It can be used as an anchor reference in URL.
+                            It isn’t associated with the data within the element.
+
+
+                #headshot {
+                border: 1px solid lightslategray; 
+                padding: 2px;
+                margin: 8px;
+                border-radius: 8px;
+                max-width: 150px;
+                }
+                - find the id with this headshot and only find that one element
+                  basically assigning a variable but in a different format
+                  an id is more specific than just the name of the tag, so the cascading rule will not overrule the id grab even 
+                  if the numbers are greater in the next braces down
+
+        <div id="exper1"> 
+        <div id="exper2">   
+     - would work for different experience item, but would have duplicate items in css so this is where classes would come in
+        so: 
+        <div class="expierence">
+         * that way, a rule can be created in which it only applies to the div elements that are about expierence  
+
+         
