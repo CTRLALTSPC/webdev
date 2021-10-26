@@ -27,3 +27,26 @@ h1, h2 {
   max-width: 150px;
 }
 
+.experience {
+  border: inset 1px;
+  margin-bottom: 4px;
+  padding: 4x;
+  background-color: white;
+  color: #222;
+}
+
+.experience .title {
+  font-weight: bold;
+
+}
+
+footer {
+  background-color: #202020;
+  color: lightblue;
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

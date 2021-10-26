@@ -90,7 +90,7 @@ All of this can be done inside html file, but style sheets are the alterantive t
    # Find an item with a name, well id 
 
    #someItem {       - indicates a single item by 'id'
-   }                        * the #(poumd) is looking for an element that has the id of someItem 
+   }                        * the #(pound) is looking for an element that has the id of someItem 
 
    .someItem {        - indicates all items that have names class 
    }                        * an item that has a named class associated with it
@@ -124,5 +124,22 @@ All of this can be done inside html file, but style sheets are the alterantive t
         so: 
         <div class="expierence">
          * that way, a rule can be created in which it only applies to the div elements that are about expierence  
+                
+                    .experience {
+                border: inset 1px;
+                margin-bottom: 4px;
+                padding: 4x;
+                background-color: white;
+                color: #222;
+                }
+                        
+                .experience .title {
+                 font-weight: bold;
+                }
 
-         
+    # CSS Positioning
+
+    position: static;       Default behavior
+    position: relative;     Relative to where it would be in static; where it would be normally 
+    position: absolute;     Specific position on the webpage
+    position: fixed;        specific position on the browser window
