@@ -50,3 +50,15 @@ footer {
   left: 0;
   width: 100%;
 }
+
+#menu li {  /* li is list items; aren't direct children so < isnt going to be used */
+  display: inline;
+  padding: 8px;
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+#menu li a { /* a is for anchor tag */
+  color: white !important; /*!important is an override */
+  text-decoration: none;
+}

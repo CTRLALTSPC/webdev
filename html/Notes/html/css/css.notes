@@ -137,9 +137,36 @@ All of this can be done inside html file, but style sheets are the alterantive t
                  font-weight: bold;
                 }
 
-    # CSS Positioning
+
+
+    # CSS Positioning #
 
     position: static;       Default behavior
     position: relative;     Relative to where it would be in static; where it would be normally 
     position: absolute;     Specific position on the webpage
     position: fixed;        specific position on the browser window
+
+
+
+    # CSS Display Properties #
+
+    display: block;     Takes up all horizontal space unless in fixed position
+    display: inline;    Takes specific width with items sharing space, on one line 
+    display: hidden;    Takes space but isn't shown, so it's hidden; might leave a white gap or blank spot for that item
+    display: none;      Does not take any space and is not shown; disappears and not be reflected in layout of page
+    display: flex;      Row/Column based layout; 
+    display: grid;      Allows specify site regions for elements 
+
+
+            #menu li {  /* li is list items; aren't direct children so < isnt going to be used */
+                display: inline;
+                padding: 8px;
+                background-color: darkgray;
+                color: white;
+                }
+    
+            #menu li a { /* a is for anchor tag */
+                color: white !important; /*!important is an override */
+                text-decoration: none;
+                }
+                  
