@@ -169,4 +169,8 @@ All of this can be done inside html file, but style sheets are the alterantive t
                 color: white !important; /*!important is an override */
                 text-decoration: none;
                 }
-                  
+            
+  - Assigned to li ref of home code file -   
+                #menu li.active {
+                  background-color: darkslateblue;
+                 }

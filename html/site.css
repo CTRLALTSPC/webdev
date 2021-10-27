@@ -62,3 +62,12 @@ footer {
   color: white !important; /*!important is an override */
   text-decoration: none;
 }
+
+#menu li.active {
+  background-color: darkslateblue;
+}
+
+header #headshot, header #siteName, header #menu {
+  display: inline;  /*changes header to be on same line as button menu */
+  vertical-align: middle;   /*make them algined with header line */
+}
