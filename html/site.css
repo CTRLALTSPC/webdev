@@ -26,7 +26,7 @@ h1, h2 {
   border-radius: 8px;
   max-width: 150px;
 }
-
+/* class */
 .experience {
   border: inset 1px;
   margin-bottom: 4px;
@@ -37,7 +37,6 @@ h1, h2 {
 
 .experience .title {
   font-weight: bold;
-
 }
 
 footer {
@@ -63,8 +62,12 @@ footer {
   text-decoration: none;
 }
 
-#menu li.active {
+#menu li.active { /* space: set active inside of list... no space, so its telling us to set properties to any list items that have the class of active (active page) */  
   background-color: darkslateblue;
+}
+
+#menu { /*buttons moving to right side of page */
+  float: right;
 }
 
 header #headshot, header #siteName, header #menu {

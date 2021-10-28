@@ -174,3 +174,29 @@ All of this can be done inside html file, but style sheets are the alterantive t
                 #menu li.active {
                   background-color: darkslateblue;
                  }
+
+                #menu { /*buttons moving to right side of page */
+                    float: right;
+                }
+
+
+  # Flexbox Display #  - set by making a container using the displlay of flex; 
+                         everything inside of it follows the pattern of the layout
+
+        display: flex; flex-direction; row;     - flex-direction row wont change anything because thats the default  
+         |child 1| |child 2| |child 3|  
+
+        display: flex; flex-direction; row-reverse;     - row reserve: not going to care about the order of the items; 
+           |child 3| |child 2| |child 1|                  * useful for localization like if you need right to left text for different languages
+        
+        display: flex; flex-direction; column;       
+         |child 1|      - still going to follow the same rules, and support column reverse as well
+         |child 2|
+         |child 3|  
+
+        display: flex; justify-content: flex-start;     - property that works inside of flex box, by default its flex start so everything will be aligned
+         |child 1| |child 2| |child 3|                      to the start of the container
+
+         display: flex; justify-content: flex-end;   or center;   or space-between;  
+                                |child 1| |child 2| |child 3|
+            - pushes it over to the right hand side, difference from row reserve is the order of the children 
