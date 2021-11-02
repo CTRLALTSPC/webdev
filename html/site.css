@@ -70,7 +70,12 @@ footer {
   float: right;
 }
 
-header #headshot, header #siteName, header #menu {
-  display: inline;  /*changes header to be on same line as button menu */
-  vertical-align: middle;   /*make them algined with header line */
+header {
+  display: flex; 
+  justify-content: center;  /* moves everything in header over to the right side of page */
 }
+
+/* header #headshot, header #siteName, header #menu {
+  display: inline;  changes header to be on same line as button menu 
+  vertical-align: middle;   /*make them algined with header line 
+} */

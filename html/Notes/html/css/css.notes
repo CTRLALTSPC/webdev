@@ -200,3 +200,9 @@ All of this can be done inside html file, but style sheets are the alterantive t
          display: flex; justify-content: flex-end;   or center;   or space-between;  
                                 |child 1| |child 2| |child 3|
             - pushes it over to the right hand side, difference from row reserve is the order of the children 
+
+
+        justify-content - items inside
+        justify-items - the items itself are the ones used on individual items inside of a container to change the justification
+        justify-self - tells whether its going to be justified itself or not
+            
