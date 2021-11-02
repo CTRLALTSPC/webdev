@@ -70,7 +70,7 @@ footer {
   float: right;
 }
 
-header {
+header {   /* */
   display: flex; 
   justify-content: center;  /* moves everything in header over to the right side of page */
 }
