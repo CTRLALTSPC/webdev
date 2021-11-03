@@ -206,3 +206,24 @@ All of this can be done inside html file, but style sheets are the alterantive t
         justify-items - the items itself are the ones used on individual items inside of a container to change the justification
         justify-self - tells whether its going to be justified itself or not
             
+        - line 73 in sitecss: 
+            Using justify is along where the items are laid out. So, in the case of row, it's going to be the horizontal space. 
+            Items is the alignment on the other axis. So, if we're talking about row, we're talking about aligning top to bottom.
+            If we're talking about column, that would be left and right, where justify would be top to bottom. So, they're using terms which aren't specific 
+            to left, right, and top and bottom on purpose, so that if you want to change from columns to rows, 
+            that most of this isn't going to need to be reworked. So I'm just going to say center because I want it aligned in the container top to bottom centered
+ 
+
+ 
+    # Grid # - individual items that display naturally in a grid; specify how many items are in that grid 
+
+    display: grid;
+        |child 1| |child 2| |child 3| 
+        |child 4| |child 5| |child 6|
+
+    display: grid;
+    -------------header------------     two columns, one row 
+    ----main-------------sidebar---     one row, one column each
+    -------------footer------------     two columns, one row
+
+    allow to lay this out and change it 

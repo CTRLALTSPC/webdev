@@ -72,10 +72,17 @@ footer {
 
 header {   /* */
   display: flex; 
-  justify-content: center;  /* moves everything in header over to the right side of page */
+  justify-content: start;       /* put the 'verb' of page movements here. demo choice is space-between which add a space between, but them */
+  align-items: center;         /* tells the container that all of the items in it how I want to align them; !see cssnotes for other details! */
+}
+
+header #menu {
+  margin-left: auto;  /* make margin left as large as possible, and auto i going to set the property as large as you possibly can */
 }
 
 /* header #headshot, header #siteName, header #menu {
   display: inline;  changes header to be on same line as button menu 
   vertical-align: middle;   /*make them algined with header line 
+
+  instead of combining, demo made separate values for each tag
 } */
