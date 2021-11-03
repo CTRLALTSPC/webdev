@@ -8,6 +8,11 @@ main {
     background-color: rgb(198, 206, 214);
     padding: 4px;
     color: #202020;
+    grid-area: main;
+  }
+
+  aside {   /* new rule that changes for the form by saying aside */
+    grid-area: aside;
   }
 
 h1, h2 {
@@ -48,6 +53,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  grid-area: footer;
 }
 
 #menu li {  /* li is list items; aren't direct children so < isnt going to be used */
@@ -74,6 +80,7 @@ header {   /* */
   display: flex; 
   justify-content: start;       /* put the 'verb' of page movements here. demo choice is space-between which add a space between, but them */
   align-items: center;         /* tells the container that all of the items in it how I want to align them; !see cssnotes for other details! */
+  grid-area: header;
 }
 
 header #menu {
@@ -86,3 +93,13 @@ header #menu {
 
   instead of combining, demo made separate values for each tag
 } */
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-columns: auto 200px;  /* items stay the same size when page is shrunk or expanding */
+    grid-gap: 8px;  /* creats a gutter for every row and column that is 8pixels wide -- like a padding, but in the grid */
+  }

@@ -214,7 +214,7 @@ All of this can be done inside html file, but style sheets are the alterantive t
             that most of this isn't going to need to be reworked. So I'm just going to say center because I want it aligned in the container top to bottom centered
  
 
- 
+
     # Grid # - individual items that display naturally in a grid; specify how many items are in that grid 
 
     display: grid;
@@ -226,4 +226,10 @@ All of this can be done inside html file, but style sheets are the alterantive t
     ----main-------------sidebar---     one row, one column each
     -------------footer------------     two columns, one row
 
+    grid-template-areas:
+        "header header"
+        "main sidebar"
+        "footer footer";  (in demo it doesnt do what we want it to do, so you need to specify the grid area for each element)
+
     allow to lay this out and change it 
+    -! basically, by using this it assigns the tags to the auto format of this function persay, to recieve the format !-
