@@ -1,1 +1,53 @@
 ! 11/5 - start of js basics module
+
+<script> : tag; always needs a begin. and ending
+           cannot end this tag with a closing element
+    
+    usually tell it what type of script it is
+            <script type="text/javascript">
+            but js is the default so its not neccesary to write out
+
+            <script>
+            alert("Hello World");
+            </script>
+
+            calling a command called alert, () tell alert that
+            I want to send it some information, this case a string, start and end it with quotes inside ()
+
+            alert pops up a little box on the browser
+                
+    - document.writeln  : add some piece of text to the doc itself
+                            - put it at the bottom of the page in demo
+                            
+ js variable: there are a few; var is being used for this
+                - place to hold some data, 
+                         var number = 5;
+                        document.writeln(number);
+
+    let allows you to create another variable just like var, but assigning it string instead
+           let name = "Blaise";
+    
+    document.writeln(name + number);  -- apend variable 
+
+
+                     <script>
+                        var number = 5;
+                        let name = "Blaise";
+
+                        number = 12;  // executed from the top down so the number would print 12 
+
+                        // writing to the document
+                        document.writeln(name + number);
+                        // alert("Hello World");  -- this will be ignored -- 
+                    </script>
+        "you usually dont have a script section for this"
+         "your going to use separate files"
+
+    1 - dump script content into index.js file
+    2 - refer html file script source to index.js 
+    3 - it wont change the action dramatically, but its basically how to 'connect' the 
+        files to work together using script 
+
+        let hasJob = true;  - data type called boolean; 
+
+        semi colons are optional to end line with in javascript, but it makes it easier to read  

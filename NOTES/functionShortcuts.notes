@@ -1,0 +1,15 @@
+
+* highlight code, edit drop down menu and hit toggle line comment
+  to comment out selected text 
+
+* copy line up, shift alt arrow up
+* copy line down, shift alt arrow down 
+
+* move line up, alt arrow up
+* move line down, alt arrow down
+
+* add cursor above to highlight, ctrl alt arrow up
+* add cursor below to highlight, ctrl alt arrow down
+
+* switch file editor, ctrl pagedown
+* previous file editor (go backwards), ctrl pageup 
