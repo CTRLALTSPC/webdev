@@ -75,3 +75,30 @@
 
            - the padding has content which pushes the content in, and may have a border around that
            - the line between the edge of the element in the content is made up of both size of border and padding   
+
+
+
+11/25
+
+           HTML is a document
+
+    html ----- head ----title
+        | ------ body ----heading ---- menu
+                  |   
+                  |-----section ---- h1
+                            |
+                            | ------ p ---img
+                                       ---button
+                                       --- div
+
+The DOM model - document object model 
+
+window.document  - global object called document and attached to another object
+
+document.body    - the body element
+
+document.head    - the head element
+
+document.getElementById()   - find an element by the id field (selector)
+
+document.getElementByClassName()   - find element with the class name (class rule in css) 

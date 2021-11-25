@@ -103,3 +103,8 @@ header #menu {
     grid-template-columns: auto 200px;  /* items stay the same size when page is shrunk or expanding */
     grid-gap: 8px;  /* creats a gutter for every row and column that is 8pixels wide -- like a padding, but in the grid */
   }
+
+#formInfo {
+  font-size: 14px;
+  font-style: italic;
+}
